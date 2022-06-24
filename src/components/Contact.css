@@ -1,0 +1,52 @@
+img {
+  max-width: 100%;
+  vertical-align: middle;
+  height: auto;
+}
+
+.contact-item {
+  clear: both;
+  overflow: hidden;
+  border: rgb(100, 100, 100) solid 1px;
+  padding: 15px;
+  border-radius: 10px;
+  min-width: 300px;
+  width: 60vw;
+  max-width: 750px;
+  background-color: #9c5ce730;
+}
+
+.contact-item h3 {
+  line-height: 30px;
+  margin-bottom: 5px;
+}
+
+.contact-bubble {
+  float: left;
+  width: 125px;
+  height: 125px;
+  object-fit: contain;
+  border-radius: 50%;
+}
+
+.contact-container {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.contact-info {
+  display: flex;
+  flex-direction: column;
+  gap: 1px;
+  line-height: 1.8;
+}
+
+.contact-info .contact-phone {
+  font-size: 16px;
+  font-style: italic;
+}
+
+.contact-info .contact-email {
+  font-size: 14px;
+}

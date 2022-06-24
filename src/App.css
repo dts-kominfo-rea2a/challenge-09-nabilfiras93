@@ -1,4 +1,11 @@
 .App {
   text-align: center;
   display: flex;
+  width: 100vw;
+  justify-content: center;
+  align-items: center;
+  gap: 15px;
+  flex-direction: column;
+  padding: 50px 0;
+  background-color: #dcfaee;
 }
